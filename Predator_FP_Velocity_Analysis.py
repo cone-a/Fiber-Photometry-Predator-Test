@@ -16,7 +16,7 @@ import seaborn as sns
 #%%
 
 # Directory containing the files
-directory = 'D:/PredatorTest Velocities'
+directory = 'C:/your_directory_to_files'
 
 # Dictionaries to store DataFrames
 dfs_velo = {}
@@ -25,7 +25,7 @@ dfs_velo = {}
 # Function to generate the dictionary key from the filename
 def generate_key(filename):
     parts = filename.split('_')
-    key = '_'.join(parts[2:4])  # Adjust this based on the filename structure
+    key = '_'.join(parts[2:4])  # Adjusted based on the filename structure
     return key
 
 # Loop through each file in the directory
@@ -63,7 +63,7 @@ def contvar_peh(var_ts, var_vals, ref_ts, min_max, bin_width = False):
     return all_trials
 
 
- #Assigns perievent per animal
+ #Assigns perievent per animal from timestampe
 
 ambush_velo_events = {
     'C65_M1': [60.3538],
