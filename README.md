@@ -1,5 +1,5 @@
 # Fiber-Photometry-Predator-Test
-photometry analysis completed for publicated scientific paper
+Photometry analysis completed for publicated scientific paper
 
 check out our paper here - https://doi.org/10.7554/eLife.90972.2
 
