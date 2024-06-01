@@ -17,7 +17,7 @@ import seaborn as sns
 #%%
 
 # Directory containing the files
-directory = 'D:/Fiber Photometry PredatorTest'
+directory = 'D:/your_diretory_to_files'
 
 # Dictionaries to store DataFrames
 dfs_iso = {}
@@ -194,7 +194,7 @@ for (key, value), (key2, value2) in zip(dfs_iso.items(),dfs_gcamp.items()):
 
 #%% 
 
-# #### Original code ####
+# #### Apply lasso  ####
 from sklearn.linear_model import Lasso
 
 # Starts to label each mouse/figure at position 0 
